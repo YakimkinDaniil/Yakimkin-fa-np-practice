@@ -1,6 +1,7 @@
 # python3
 import asyncio
 import sys
+import threading
 
 counter = 0
 
@@ -13,7 +14,7 @@ async def serve_client(reader, writer):
   cid = counter
   counter += 1  # Потоко-безопасно, так все выполняется в одном потоке
   print(f'Client #{cid} connected')
-
+  
   request = await read_request(reader)
   if request is None:
     print(f'Client #{cid} unexpectedly disconnected')
