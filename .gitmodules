@@ -235,3 +235,9 @@
 [submodule "Yak"]
 	path = Yak
 	url = https://github.com/YakimkinDaniil/Yak
+[submodule "7_TCP_server"]
+	path = 7_TCP_server
+	url = https://github.com/VladimirAndropov/7_TCP_server
+[submodule "Yakimkin_7_TCP_server"]
+	path = Yakimkin_7_TCP_server
+	url = https://github.com/YakimkinDaniil/Yakimkin_7_TCP_server.git
