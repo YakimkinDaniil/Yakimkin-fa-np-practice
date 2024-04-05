@@ -52,6 +52,8 @@ def video_stream_gen():
     vid.release()
 	
 
+
+
 def video_stream():
     global TS
     fps,st,frames_to_count,cnt = (0,0,1,0)

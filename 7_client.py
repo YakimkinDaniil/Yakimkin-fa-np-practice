@@ -53,7 +53,6 @@ def video_stream():
 	client_socket.close()
 	cv2.destroyAllWindows() 
 
-	
 
 
 from concurrent.futures import ThreadPoolExecutor
